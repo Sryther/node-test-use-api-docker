@@ -1,0 +1,6 @@
+{% extends 'layouts/master.html' %}
+{% block body %}
+{% if container %}
+{{ container|raw|json_encode }}
+{% endif %}
+{% endblock %}

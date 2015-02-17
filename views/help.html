@@ -1,0 +1,23 @@
+{% extends 'layouts/master.html' %}
+
+{% block body %}
+<h1>Routes</h1>
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Route</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>/</td>
+            <td>Show help</td>
+        </tr>
+        <tr>
+            <td>/containers/create</td>
+            <td>Create a new container</td>
+        </tr>
+    </tbody>
+</table>
+{% endblock %}
